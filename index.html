@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script type="text/javascript">
+		function popBox() {
+   //Выведим окно запроса и сохраним возвращенное значение в переменную ex1 
+   			ex1=prompt('What is your name:', 'Your name');
+   //Отобразим имя введенное пользователем в окно запроса на страницу
+   			alert('Welcome,' + ex1 + 'To fsociety site');
+}
+	</script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,100&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="mlg.png" type="image/icon">
+	<title>Fsociety</title>
+</head>
+<body onload='popBox()'>
+	<section class="section1">
+		<header class="head">
+			<div class="logo">
+				<a href="index.html" class="sizetp">
+					<img src="Logo.png" class="plogo">
+					<p class="textlogo" href="index.html">fsociety</p>
+				</a>
+			</div>
+			<nav class="headnav">
+				<a href="">Main</a>
+				<a href="">Interesting</a>
+				<a href="">Servise</a>
+				<a href="">Abot me/My projets</a>
+				<input type="text" class="inputonhead">
+			</nav>
+		 </header>
+		 <div class="bgmain">
+		 </div>
+	</section>
+</body>
+</html>
